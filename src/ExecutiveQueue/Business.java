@@ -2,16 +2,17 @@ package ExecutiveQueue;
 
 import java.util.Scanner;
 
-public class Business
-{
-    public static void main(String[] args)
-    {
-        Scanner textInput = new Scanner(System.in);
-        boolean simulationActive = true;
+public class Business {
+    Department[] departments;
+    int size;
 
-        while (simulationActive)
-        {
-
-        }
+    public Business() {
+        departments = new Department[10];
     }
+
+    public void addDept()
+    {
+
+    }
+
 }
